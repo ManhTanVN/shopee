@@ -1,0 +1,73 @@
+
+
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    :root {
+        --height-header: 68px;
+        --height-navbar: 0;
+    }
+
+    .btn-search {
+        padding: 1px 5px;
+        font-size: 15px;
+    }
+
+    .fa, .fas {
+        font-weight: 600;
+    }
+
+    .search-bar {
+        height: var(--height-header);
+    }
+
+    .avatar-img {
+        width: 137px;
+        height: 46px;
+    }
+
+    .shopee-avatar {
+        width: 160px;
+    }
+    .search__cart {
+        width: 88px;
+    }
+
+    .search-input {
+        font-size: 13px;
+    }
+}
+
+
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+   
+}
+
+
+
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .shopee-avatar {
+        display: none;
+    }
+}   
+
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+ 
+}

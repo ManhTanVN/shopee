@@ -1,0 +1,8 @@
+body {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    align-items: stretch;
+}

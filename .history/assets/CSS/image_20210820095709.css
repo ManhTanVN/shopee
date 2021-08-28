@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+
+.container {
+
+    width: 500px;
+    height: auto;
+    border: 3px solid springgreen;
+}

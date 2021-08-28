@@ -1,0 +1,125 @@
+:root {
+    --primary-color: rgb(245, 61, 45);
+    --primary-color-rgba: rgb(245, 61, 45, 0.15);
+    --second-color: #f63 ;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --boder-color: #dbdbdb;
+
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #000000 0px 1px 1px 0;
+    outline: none;
+    padding: 5px 15px;
+    background-color: #fdfdfd ;
+    /* background-color: var(--primary-color); */
+    border: none;
+    border-radius: 2px;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+/* TESt */
+
+.grid__column-2 {
+    width: 16.6667%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.grid__column-10 {
+    width: 83.333%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* TESt */
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@keyframes sizeChange {
+    from {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* modal layout */
+
+.modal-layout{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: sizeChange ease-in .2s;
+    display: none;
+    
+}
+.modal-overlay{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation: sizeChange ease-in .2s;
+    
+}
+
+/* END modal layout */
+

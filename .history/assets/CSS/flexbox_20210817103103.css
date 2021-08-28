@@ -1,0 +1,107 @@
+body {
+    padding: 10px;
+}
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: -30px;
+}
+
+
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: calc(25% - 30px);
+    margin-left: 30px;
+
+}
+.card-image{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+.card-top{
+
+}
+.card-title{
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0 ;
+}
+.card-user{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.card-user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.card-user-info{
+    padding-left: 20px;
+    flex: 1;
+}
+.card-info-top{
+    display: flex;
+    align-items: center;
+}
+.card-user-name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+}
+
+.card-info-top i {
+    color: #20E3B2;
+    margin-left: 10px;
+}
+.fas{
+
+}
+.fa-check-circle{
+
+}
+.card-user-game{
+    font-weight: 400;
+    font-size: 13px;
+    color: #999;
+    
+}
+.card-bottom{
+
+}
+.card-live{
+
+}
+.fa-wifi{
+
+}
+.card-watching{
+
+}
+.fas.fa-check-circle{
+
+}
+.fas.fa-wifi{
+
+}
+
+/* .cards {
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111,0.2) 0px 7px 29px 0px;
+    width: calc(20% - 70px);
+    margin-left: 30px;
+} */

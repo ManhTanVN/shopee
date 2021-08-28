@@ -1,0 +1,178 @@
+.header{
+    background-image: linear-gradient(180deg, #f53d2d, #f63 );
+    position: relative;;
+    height: 119px;
+}
+.navbar{
+    /* height: 34px 85px; */
+    
+    /* width: 1200px; */
+    height: 34px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: block;
+    top: 0;
+    /* grid */
+    margin: 0 auto;
+    /* padding: 0; */
+ 
+}
+.navbar__items{
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    /* margin: 0 74.5px; */
+    padding-left: 0;
+}
+.navbar__items-li{
+    display: inline-block;
+    /* border-right: solid 1px #ffffff; */
+    position: relative;
+    margin: 0 8px;
+    transition: ease .2s;
+}
+
+.navbar__items-li:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+.cursor-no-poiter{
+    cursor: text;
+    color: var(--white-color);
+}
+
+.far, .fab {
+    font-size: 16px;
+    margin: 0 6px;
+}
+/* .navbar__items-li--account {
+
+} */
+.navbar__items-li--separate::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-left: 2px solid #ffffff;
+    height: 14px;
+    left: -10px;
+    top:100%;
+    transform: translateY(-100%);
+    /* width: 1.5px; */
+    /* background-color: #c1c1c1; */
+    opacity: 0.5;
+}
+.navbar__items-a--link {
+    list-style: none;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* Download apps */
+
+.download-apps{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    /* overflow: hidden; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    right: 0;
+    top: 300%;
+    border-radius: 3px;
+    padding: 5px;
+
+    display: none;
+    animation: fadeIn ease-in .4s;
+
+}
+
+.download-apps::before {
+    content: "";
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    display: block;
+    /* background-color: red; */
+}
+.navbar__items-li--hover-apps:hover .download-apps {
+    display: block;
+}
+
+.download-apps__qrcode {
+    flex-shrink: 0;
+}
+
+
+
+.download-app__partners{
+    --spacing: 10px;
+    --columns: 2;
+    margin-right: 0;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+
+}
+.download-app__partners img {
+    height: 18px;
+    margin: 5px auto;
+    margin-left: var(--spacing);
+  
+}
+
+
+/* Start Thông báo */
+
+.notification{
+    width: 400px;
+    position: absolute;
+    top: 118%;
+    right: 0;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    color: #333;
+    padding: 0;
+
+    
+}
+.notification h3, h4, p {
+ margin: 0;
+}
+
+.new-notification{
+    height: 40px;
+    background-color: #fff;
+    color: #999;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 0 15px;
+}
+
+.u-list-notification{
+    padding: 0;
+}
+.list-notification{
+    background-color: #fff2ee;
+    display: flex;
+}
+.list-notification img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.contain-notification{
+    margin: 0;
+}
+.more-notification{
+
+}
+
+/* End Thông báo */

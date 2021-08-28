@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 25%;
+    
+}

@@ -1,0 +1,27 @@
+.header{
+    background-image: linear-gradient(180deg, #f53d2d, #f63 );
+
+}
+.navbar{
+ width: 1200px;
+ height: 119px;
+ /* height: 34px 85px; */
+ color: #ffffff;
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ line-height: 1.6rem;
+
+}
+.navbar__items{
+
+}
+.navbar__items-special{
+
+}
+.cursor{
+
+}
+.navbar__items-user{
+
+}

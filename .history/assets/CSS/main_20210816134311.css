@@ -1,0 +1,31 @@
+.header{
+    background-image: linear-gradient(180deg, #f53d2d, #f63 );
+    position: relative;;
+    width: 1200px;
+    height: 119px;
+}
+.navbar{
+ /* height: 34px 85px; */
+ color: #ffffff;
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ justify-content: space-between;
+ position: block;
+ top: 0;
+ 
+}
+.navbar__items{
+    align-items: center;
+    /* width: 100%; */
+    height: 34px;
+    list-style: none;
+    font-size: 14px;
+    margin: 0 74.5px;
+}
+.navbar__items-li{
+    display: inline-block;
+}
+.cursor{
+
+}

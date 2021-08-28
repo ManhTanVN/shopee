@@ -1,0 +1,82 @@
+body {
+    padding: 10px;
+}
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: -30px;
+}
+
+
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: calc(25% - 30px);
+    margin-left: 30px;
+
+}
+.card-image{
+
+}
+.card-content{
+
+}
+.card-top{
+
+}
+.card-title{
+
+}
+.card-user{
+
+}
+.card-user-avatar{
+
+}
+.card-user-info{
+
+}
+.card-info-top{
+
+}
+.card-user-name{
+
+}
+.fas{
+
+}
+.fa-check-circle{
+
+}
+.card-user-game{
+
+}
+.card-bottom{
+
+}
+.card-live{
+
+}
+.fa-wifi{
+
+}
+.card-watching{
+
+}
+.fas.fa-check-circle{
+
+}
+.fas.fa-wifi{
+
+}
+
+/* .cards {
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111,0.2) 0px 7px 29px 0px;
+    width: calc(20% - 70px);
+    margin-left: 30px;
+} */

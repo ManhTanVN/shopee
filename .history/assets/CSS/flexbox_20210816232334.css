@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -35px;
+}
+
+.card {
+    width: 25%;
+    border-radius: 50px;
+    margin-left: 35px;
+    border: 5px solid #333;
+}
+
+.cover-card {
+    height: 150px;
+    width: 100%;
+}
+
+.user-info-card {
+    padding: 25px;
+
+}
+
+.info-card {
+    
+}
+
+.user-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+.user-card-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 10rem;
+    flex-shrink: 0;
+}
+
+
+
+
+

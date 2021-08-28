@@ -1,0 +1,12 @@
+body {
+    padding: 20px;
+}
+.cards {
+    display: flex;
+}
+
+.cards {
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #ffffff;
+}

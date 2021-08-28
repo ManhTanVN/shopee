@@ -1,0 +1,10 @@
+body {
+    padding: 20px;
+}
+.cards {
+    display: flex;
+}
+
+.cards {
+    border-radius: 30px;
+}

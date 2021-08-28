@@ -1,0 +1,24 @@
+h1 {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 10px;
+    margin: 10px;
+    outline: 1px solid orangered;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    background-color: orangered;
+    color: papayawhip;
+    padding: 19px;
+    margin: 0;
+}
+
+a {
+    background-color: purple;
+    color: seashell;
+    padding: 20px;
+    margin: 300px 300px;
+}

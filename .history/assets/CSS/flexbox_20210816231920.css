@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 25%;
+}
+
+.cover-card {
+    height: 150px;
+    width: 100%;
+}
+
+.user-info-card {
+    padding: 25px;
+
+}
+
+.info-card {
+    
+}
+
+.user-card-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 10rem;
+}
+
+
+
+
+

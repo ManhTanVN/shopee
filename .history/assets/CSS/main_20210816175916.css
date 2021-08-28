@@ -1,0 +1,129 @@
+.header{
+    background-image: linear-gradient(180deg, #f53d2d, #f63 );
+    position: relative;;
+    height: 119px;
+}
+.navbar{
+    /* height: 34px 85px; */
+    
+    /* width: 1200px; */
+    height: 34px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: block;
+    top: 0;
+    /* grid */
+    margin: 0 auto;
+    /* padding: 0; */
+ 
+}
+.navbar__items{
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    /* margin: 0 74.5px; */
+    padding-left: 0;
+}
+.navbar__items-li{
+    display: inline-block;
+    /* border-right: solid 1px #ffffff; */
+    position: relative;
+    margin: 0 8px;
+    transition: ease .2s;
+}
+
+.navbar__items-li:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+.cursor-no-poiter{
+    cursor: text;
+    color: var(--white-color);
+}
+
+.far, .fab {
+    font-size: 16px;
+    margin: 0 6px;
+}
+/* .navbar__items-li--account {
+
+} */
+.navbar__items-li--separate::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-left: 2px solid #ffffff;
+    height: 14px;
+    left: -10px;
+    top:100%;
+    transform: translateY(-100%);
+    /* width: 1.5px; */
+    /* background-color: #c1c1c1; */
+    opacity: 0.5;
+}
+.navbar__items-a--link {
+    list-style: none;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* Download apps */
+
+.download-apps{
+    background-color: var(--white-color);
+    /* background-color: var(--black-color); */
+    /* width: 196px; */
+    position: absolute;
+    right: 0;
+    top: 300%;
+    border-radius: 10px;
+    /* border: yellow; */
+    /* display: none; */
+
+}
+
+.download-apps::before {
+    content: "";
+    height: 30px;
+    width: 100%;
+    background-color: yellowgreen;
+    position: absolute;
+    right: 0;
+    /* bottom: 100%; */
+    display: block;
+}
+.navbar__items-li--hover-apps:hover .download-apps {
+    display: block;
+}
+.download-apps__qrcode{
+}
+.dowload-app__qr-img{
+    /* width: 158px; */
+    margin: 5px 5px;
+}
+.download-app__partners {
+    /* background-color: var(--white-color); */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 5px;
+    
+}
+
+.download-app__partner {
+    height: 22px;
+    /* align-self: 45px; */
+}
+
+.dowload-app__app-store{
+
+}
+.dowload-app__google-play{
+
+}
+.dowload-app__app-gallery{
+
+}

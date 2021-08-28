@@ -1,0 +1,48 @@
+
+
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    :root {
+        --height-header: 119px;
+        --height-navbar: 0;
+    }
+
+    .header{
+    }
+
+    .search-bar {
+        height: var(--height-header);
+    }
+}
+
+
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+   
+}
+
+
+
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}   
+
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+ 
+}
